@@ -1,0 +1,170 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #20abda;
+    background-color: #f4f4f9;
+   
+}
+
+/* Header */
+.header-section {
+    background: #280be2;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.header-logo {
+    width: 60px;
+    margin-right: 20px;
+}
+
+.header-content {
+    max-width: 900px;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.header-content p {
+    font-size: 14px;
+}
+
+/* Navbar */
+.navbar {
+    background: #1499f1;
+    padding: 1px ;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-logo {
+    width: 150px;
+    height: 50px;
+    margin-right: 50px;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.navbar ul li a:hover {
+    background: #0f0fe5;
+}
+/* How to Apply Section */
+.how-to-apply-section {
+    padding: 20px;
+}
+
+.apply-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.apply-steps {
+    list-style-type: decimal;
+}
+
+.apply-steps li {
+    margin: 20px 0;
+}
+
+.apply-steps h2 {
+    font-size: 22px;
+}
+
+.apply-steps p {
+    font-size: 16px;
+}
+
+.faq-section {
+    margin-top: 30px;
+}
+
+.faq {
+    margin-bottom: 15px;
+}
+
+.faq-question {
+    background-color: #e0720c;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 18px;
+    
+}
+
+.faq-answer {
+    background-color: #f4f4f9;
+    padding: 10px;
+    display: none;
+}
+
+.faq-question .toggle-icon {
+    float: right;
+}
+.step {
+    margin-bottom: 40px; /* Adds space between each step */
+    text-align: left;
+}
+
+.step h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+.step .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.step .btn:hover {
+    background-color: #0056b3;
+}
